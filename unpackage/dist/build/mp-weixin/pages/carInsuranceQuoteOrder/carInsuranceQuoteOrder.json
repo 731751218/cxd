@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "车险报价订单",
+  "usingComponents": {
+    "tab-list": "/components/tabList",
+    "nodata": "/components/nodata"
+  }
+}

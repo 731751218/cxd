@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "检测站订单支付",
+  "usingComponents": {
+    "lu-popup-wrapper": "/components/lu-popup-wrapper/lu-popup-wrapper",
+    "uni-calendar": "/components/uni-calendar/uni-calendar",
+    "license-plate-key": "/components/license-plate-key",
+    "an-layer": "/components/an-layer/an-layer"
+  }
+}

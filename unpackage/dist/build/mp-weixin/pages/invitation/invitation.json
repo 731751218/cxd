@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "邀请车友",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "nodata": "/components/nodata"
+  }
+}

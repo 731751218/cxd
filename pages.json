@@ -1,0 +1,213 @@
+{
+	"pages": [
+
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "服务中心",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/testingOrder/testingOrder",
+			"style": {
+				"navigationBarTitleText": "检测站订单"
+			}
+		},
+		{
+			"path": "pages/personal/personal",
+			"style": {
+				"navigationBarTitleText": "个人中心",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/invitation/invitation",
+			"style": {
+				"navigationBarTitleText": "邀请车友",
+				"navigationStyle": "custom"
+			}
+		},
+
+		{
+			"path": "pages/exemptionLabelOrder/exemptionLabelOrder",
+			"style": {
+				"navigationBarTitleText": "免检标订单"
+			}
+		},
+		{
+			"path": "pages/carInsuranceQuote/carInsuranceQuote",
+			"style": {
+				"navigationBarTitleText": "车险报价"
+			}
+		},
+		{
+			"path": "pages/exemptionLabel/exemptionLabel",
+			"style": {
+				"navigationBarTitleText": "免检标签"
+			}
+		},
+		{
+			"path": "pages/legalAdviser/legalAdviser",
+			"style": {
+				"navigationBarTitleText": "法律顾问"
+			}
+		},
+
+		{
+			"path": "pages/shopOrder/shopOrder",
+			"style": {
+				"navigationBarTitleText": "卡券订单",
+				"navigationBarBackgroundColor": "#fff"
+			}
+		},
+
+		{
+			"path": "pages/testing/testing",
+			"style": {
+				"navigationBarTitleText": "检测站"
+			}
+		},
+		{
+			"path": "pages/testingPay/testingPay",
+			"style": {
+				"navigationBarTitleText": "检测站订单支付"
+			}
+		},
+
+
+		{
+			"path": "pages/addcar/addcar",
+			"style": {
+				"navigationBarTitleText": "添加车辆"
+			}
+		},
+		{
+			"path": "pages/shop/shop",
+			"style": {
+				"navigationBarTitleText": "卡券详情"
+			}
+		},
+
+		{
+			"path": "pages/carlist/carlist",
+			"style": {
+				"navigationBarTitleText": "车辆列表"
+			}
+		},
+
+		{
+			"path": "pages/withdrawal/withdrawal",
+			"style": {
+				"navigationBarTitleText": "申请提现"
+			}
+		},
+
+		{
+			"path": "pages/commissionlist/commissionlist",
+			"style": {
+				"navigationBarTitleText": "佣金明细"
+			}
+		},
+
+
+		{
+			"path": "pages/cooperation/cooperation",
+			"style": {
+				"navigationBarTitleText": "合作商家"
+			}
+		},
+		{
+			"path": "pages/city/city",
+			"style": {
+				"navigationBarTitleText": "选择城市"
+			}
+		},
+
+		{
+			"path": "pages/testingList/testingList",
+			"style": {}
+		}, {
+			"path": "pages/carInsuranceQuoteOrder/carInsuranceQuoteOrder",
+			"style": {
+				"navigationBarTitleText": "车险报价订单"
+			}
+		}, {
+			"path": "pages/legalAdviserOrder/legalAdviserOrder",
+			"style": {
+				"navigationBarTitleText": "法律咨询订单"
+			}
+		}, {
+			"path": "pages/sharePoster/sharePoster",
+			"style": {
+				"navigationBarTitleText": "海报分享"
+			}
+		}, {
+			"path": "pages/testingOrderDetails/testingOrderDetails",
+			"style": {
+				"navigationBarTitleText": "检测站订单详情"
+			}
+		}, {
+			"path": "pages/carInsuranceQuoteOrderDetails/carInsuranceQuoteOrderDetails",
+			"style": {
+				"navigationBarTitleText": "车险报价订单详情"
+			}
+		}
+	    ,{
+            "path" : "pages/legalAdviserOrderDetails/legalAdviserOrderDetails",
+            "style" : {
+				"navigationBarTitleText": "法律咨询订单详情"
+			}
+        }
+        ,{
+            "path" : "pages/exemptionLabelOrderDetails/exemptionLabelOrderDetails",
+            "style" : {
+				"navigationBarTitleText": "免检标订单详情"
+			}
+        }
+        ,{
+            "path" : "pages/subordinateOrder/subordinateOrder",
+            "style" : {
+				"navigationBarTitleText": "下级订单动态",
+				"navigationBarBackgroundColor":"#6fcef2",
+				"navigationBarTextStyle":"white"
+			}
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "车检服务",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#8a8a8a",
+		"selectedColor": "#1093d7",
+		"borderStyle": "black",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"text": "服务中心",
+				"iconPath": "./static/tabbar/home.png",
+				"selectedIconPath": "./static/tabbar/home_hover.png"
+			},
+			{
+				"pagePath": "pages/cooperation/cooperation",
+				"text": "合作商家",
+				"iconPath": "./static/tabbar/cooperation.png",
+				"selectedIconPath": "./static/tabbar/cooperation_hover.png"
+			},
+			{
+				"pagePath": "pages/invitation/invitation",
+				"text": "邀请车友",
+				"iconPath": "./static/tabbar/share.png",
+				"selectedIconPath": "./static/tabbar/share_hover.png"
+			},
+			{
+				"pagePath": "pages/personal/personal",
+				"text": "我的",
+				"iconPath": "./static/tabbar/personal.png",
+				"selectedIconPath": "./static/tabbar/personal_hover.png"
+			}
+		]
+	}
+}

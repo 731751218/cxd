@@ -1,0 +1,1 @@
+<view class="tabList"><block wx:for="{{tabList}}" wx:for-item="tab" wx:for-index="index" wx:key="index"><view data-event-opts="{{[['tap',[['tabSelection',[index]]]]]}}" class="{{['tab',(isSelection==index)?'isSelection':'']}}" bindtap="__e">{{''+tab+''}}</view></block></view>

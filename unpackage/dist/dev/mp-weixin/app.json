@@ -1,0 +1,76 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/testingOrder/testingOrder",
+    "pages/personal/personal",
+    "pages/invitation/invitation",
+    "pages/exemptionLabelOrder/exemptionLabelOrder",
+    "pages/carInsuranceQuote/carInsuranceQuote",
+    "pages/exemptionLabel/exemptionLabel",
+    "pages/legalAdviser/legalAdviser",
+    "pages/shopOrder/shopOrder",
+    "pages/testing/testing",
+    "pages/testingPay/testingPay",
+    "pages/addcar/addcar",
+    "pages/shop/shop",
+    "pages/carlist/carlist",
+    "pages/withdrawal/withdrawal",
+    "pages/commissionlist/commissionlist",
+    "pages/cooperation/cooperation",
+    "pages/city/city",
+    "pages/testingList/testingList",
+    "pages/carInsuranceQuoteOrder/carInsuranceQuoteOrder",
+    "pages/legalAdviserOrder/legalAdviserOrder",
+    "pages/sharePoster/sharePoster",
+    "pages/testingOrderDetails/testingOrderDetails",
+    "pages/carInsuranceQuoteOrderDetails/carInsuranceQuoteOrderDetails",
+    "pages/legalAdviserOrderDetails/legalAdviserOrderDetails",
+    "pages/exemptionLabelOrderDetails/exemptionLabelOrderDetails",
+    "pages/subordinateOrder/subordinateOrder"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "车检服务",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#8a8a8a",
+    "selectedColor": "#1093d7",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "服务中心",
+        "iconPath": "./static/tabbar/home.png",
+        "selectedIconPath": "./static/tabbar/home_hover.png"
+      },
+      {
+        "pagePath": "pages/cooperation/cooperation",
+        "text": "合作商家",
+        "iconPath": "./static/tabbar/cooperation.png",
+        "selectedIconPath": "./static/tabbar/cooperation_hover.png"
+      },
+      {
+        "pagePath": "pages/invitation/invitation",
+        "text": "邀请车友",
+        "iconPath": "./static/tabbar/share.png",
+        "selectedIconPath": "./static/tabbar/share_hover.png"
+      },
+      {
+        "pagePath": "pages/personal/personal",
+        "text": "我的",
+        "iconPath": "./static/tabbar/personal.png",
+        "selectedIconPath": "./static/tabbar/personal_hover.png"
+      }
+    ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "用于查看当前城市"
+    }
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap59.json"
+}

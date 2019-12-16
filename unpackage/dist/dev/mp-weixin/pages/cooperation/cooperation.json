@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "合作商家",
+  "usingComponents": {
+    "lu-popup-wrapper": "/components/lu-popup-wrapper/lu-popup-wrapper",
+    "nodata": "/components/nodata"
+  }
+}

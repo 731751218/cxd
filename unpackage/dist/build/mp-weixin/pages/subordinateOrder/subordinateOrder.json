@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "下级订单动态",
+  "navigationBarBackgroundColor": "#6fcef2",
+  "navigationBarTextStyle": "white",
+  "usingComponents": {
+    "nodata": "/components/nodata"
+  }
+}

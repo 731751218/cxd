@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "添加车辆",
+  "usingComponents": {
+    "license-plate-key": "/components/license-plate-key"
+  }
+}

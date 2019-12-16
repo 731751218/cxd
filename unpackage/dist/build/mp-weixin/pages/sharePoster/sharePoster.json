@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "海报分享",
+  "usingComponents": {
+    "canvas-poster": "/components/canvasPoster"
+  }
+}

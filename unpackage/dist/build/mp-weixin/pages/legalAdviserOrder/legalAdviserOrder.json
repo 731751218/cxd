@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "法律咨询订单",
+  "usingComponents": {
+    "nodata": "/components/nodata",
+    "tab-list": "/components/tabList"
+  }
+}

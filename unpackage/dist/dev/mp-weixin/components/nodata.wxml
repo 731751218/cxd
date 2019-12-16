@@ -1,0 +1,1 @@
+<view class="nodata" style="{{'height:'+(height+'rpx')+';'}}"><view class="iconfont"></view><view class="text">{{''+text+''}}</view></view>

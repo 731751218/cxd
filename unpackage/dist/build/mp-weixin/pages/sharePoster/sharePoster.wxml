@@ -1,0 +1,1 @@
+<view style="height:100%;"><canvas-poster class="vue-ref" vue-id="1" img="{{posterParameter.img}}" text="{{posterParameter.text}}" code="{{posterParameter.code}}" saveCallback="{{saveCallback}}" closeCallback="{{closeCallback}}" data-ref="poster" bind:__l="__l"></canvas-poster></view>

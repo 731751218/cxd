@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "免检标签",
+  "usingComponents": {
+    "license-plate-key": "/components/license-plate-key"
+  }
+}
